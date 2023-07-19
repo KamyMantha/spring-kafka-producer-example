@@ -18,9 +18,9 @@ spec:
         autoscaling.knative.dev/minScale: "1"
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/KamyMantha/spring-kafka-producer-example
       ref:
-        branch: main
+        branch: master
   serviceClaims:
     - name: database
       ref:
