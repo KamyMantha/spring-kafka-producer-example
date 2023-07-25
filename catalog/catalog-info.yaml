@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: rest-service-db
+  name: spring-kafka-producer-example
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=spring-kafka-producer-example"
 spec:
